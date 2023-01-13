@@ -1,0 +1,212 @@
+body{
+    font-family: "Montserrat";
+    /* position: absolute; */
+
+}
+
+/* title */
+#title{
+background-color: #ff4c68;
+color: white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1{
+    /* font: "Montserrat-Black"; */
+    size: 3rem;
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+    /* font-size: larger; */
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    /* font-family: "Montserrat-light"; */
+}
+
+/* Downlaod buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+@media  (max-width: 1028px){
+    .title-image {
+        position:static;
+        transform: rotate(0deg);
+        width: 60%;
+        text-align: center;
+    }
+    #title {
+        text-align: center; 
+    }
+}
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; this is optional because setting this relative with the absolute image, which automatically assigns a z-index 1, which in turn places this block on top of absolute postion's block(title-image in this case)*/
+    /* bottom: 220px;  used when made body's position absolute*/
+}
+
+
+.icons{
+
+    /* font-size: 500%; */
+    margin: 15px;
+    color:#ef8172;
+
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+.icons-div{
+    padding: 30px;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icons-para{
+    color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* prcing */
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+    line-height: 3;
+}
+
+.pricinghead{
+    color: black;
+    font-size: 35px;
+}
+
+.pricingpara{
+    font-weight: 500;
+    font-family: "Ubuntu";
+}
+
+.pricingheading{
+    padding: 0 20% 20px;
+}
+
+/* Cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: white;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.contact{
+    padding-bottom: 5%;
+}
+
+.space{
+    padding: 0 25px;
+    color: black;
+}
+.space:hover{
+    color: #ff4c68;
+}
+
+.footer-para{
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4c68;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+
